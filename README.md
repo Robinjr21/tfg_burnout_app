@@ -1,4 +1,4 @@
-# 🧠 Burnout Journal — Diario Emocional con IA
+# Burnout Journal — Diario Emocional con IA
 
 Aplicación multiplataforma (web y móvil) que funciona como diario emocional interactivo. 
 Integra un modelo de PLN basado en BETO para detectar signos tempranos de estrés, 
@@ -9,7 +9,7 @@ Desarrollado como Trabajo de Fin de Grado en Ingeniería Informática.
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 - **Frontend**: React Native + Expo (web y móvil desde una sola base de código)
 - **Backend**: FastAPI (Python) + PostgreSQL
@@ -18,7 +18,7 @@ Desarrollado como Trabajo de Fin de Grado en Ingeniería Informática.
 
 ---
 
-## ⚙️ Requisitos previos
+## Requisitos previos
 
 - Python 3.11+
 - Node.js 18+
@@ -27,7 +27,7 @@ Desarrollado como Trabajo de Fin de Grado en Ingeniería Informática.
 
 ---
 
-## 🚀 Instalación y arranque
+## Instalación y arranque
 
 ### 1. Clonar el repositorio
 
@@ -65,7 +65,7 @@ Pulsa `w` para abrir en navegador o escanea el QR con Expo Go.
 
 ---
 
-## 🔑 Variables de entorno
+## Variables de entorno
 
 Copia `backend/.env.example` a `backend/.env` y configura:
 
@@ -78,7 +78,7 @@ Copia `backend/.env.example` a `backend/.env` y configura:
 
 ---
 
-## 🧪 Ejecutar tests
+## Ejecutar tests
 
 ```bash
 cd backend
@@ -87,7 +87,7 @@ pytest tests/ -v
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 tfg_burnout_app/
 ├── backend/
@@ -110,7 +110,7 @@ tfg_burnout_app/
 
 ---
 
-## 📊 Resultados del modelo
+## Resultados del modelo
 
 | Modelo | F1-macro | Accuracy |
 |---|---|---|
@@ -121,7 +121,7 @@ tfg_burnout_app/
 
 ---
 
-## 🔒 Privacidad
+## Privacidad
 
 - Las entradas del diario se cifran con **AES-256-GCM** antes de guardarse
 - Las contraseñas se almacenan con **bcrypt**
@@ -130,6 +130,6 @@ tfg_burnout_app/
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Proyecto académico — TFG Ingeniería Informática.
