@@ -2,6 +2,8 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
+.pytest_cache/
 
 # Node
 node_modules/
@@ -12,3 +14,11 @@ node_modules/
 
 # Otros
 *.log
+
+# ML
+ml/models/*.onnx
+ml/data/raw/
+
+# IDEs
+.vscode/
+.idea/
